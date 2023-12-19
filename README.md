@@ -21,9 +21,13 @@ When updating or entering data into the UserRequirementDocument.txt file, please
 3. **Address:** Write down the address seperated by "," to be printed in the reciept
 
 Example Entry:
+
 Moonlight Cafe
+
 Burger,Pizza,Pasta
+
 50,30,12
+
 Manhattan,New York,USA
 
 Ensure that the order of menu items matches the order of their corresponding prices. Following this format allows the program to correctly associate menu items with their respective prices.
