@@ -11,6 +11,7 @@ https://drive.google.com/file/d/1BYNdqYxNiecerUx8jCT44Lpo-e_cHLKS/view?usp=shari
 ### User Requirement Document
 
 The user requirement document for this project is utilized to gather essential information such as the restaurant name and menu details.
+Ensure this file is in the same folder as the project.
 
 ### Format and Entry Order
 
