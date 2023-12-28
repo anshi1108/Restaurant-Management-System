@@ -31,10 +31,19 @@ Burger,Pizza,Pasta
 
 402,Hamilton Street,New York
 
+
 ### Receipt Generation
 
 Generates a pdf using canvas library in python that displays the total amount of the purchase along with date, time, restaurant name, restaurant address, order id, all the order information like the items and prices and displays total amount along with application of taxes in a well formated page.
 
+Each receipt has a unique name with the following format:
+receipt_order-id_date_time
+
+Due to the variables, the reciept generated is always unique and thus prevents overwriting and loss of necessary data.
+
+
 ### Order Information Database
 
-Stores all the data about the orders in a backend excel file using the pandas library in python. It also reads the last order id entered in the excel file to generate a sequencial order id that makes it easy for employees to access and use.
+Stores all the data about the orders in a backend excel file using the pandas library in python. 
+It stores the order id, the quantity of each menu item ordered (0 by default), the total cost and the final price with all the additional charges and tax added, rounded off to the next integer.
+It also reads the last order id entered in the excel file to generate the new id, which has a value incremented by 1. Thus, the IDs generated are sequencial in nature that makes it easy for employees to access and use.
