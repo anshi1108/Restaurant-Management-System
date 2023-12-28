@@ -4,7 +4,7 @@ This Python project is a simple restaurant management system (RMS) designed usin
 
 ## Google Drive link to download:
 
-https://drive.google.com/file/d/1RIOT9IWfYqyMOq7jt_HsHGwB691MuZI0/view?usp=sharing
+https://drive.google.com/file/d/1kDuhx1zi84t79SkpKs8r2mLkcYc3VJyQ/view?usp=sharing
 
 ## User Requirements
 
@@ -27,8 +27,14 @@ Moonlight Cafe
 
 Burger,Pizza,Pasta
 
-50,30,12
+20,10,15
 
-Manhattan,New York,USA
+402,Hamilton Street,New York
 
-Ensure that the order of menu items matches the order of their corresponding prices. Following this format allows the program to correctly associate menu items with their respective prices.
+### Receipt Generation
+
+Generates a pdf using canvas library in python that displays the total amount of the purchase along with date, time, restaurant name, restaurant address, order id, all the order information like the items and prices and displays total amount along with application of taxes in a well formated page.
+
+### Order Information Database
+
+Stores all the data about the orders in a backend excel file using the pandas library in python. It also reads the last order id entered in the excel file to generate a sequencial order id that makes it easy for employees to access and use.
